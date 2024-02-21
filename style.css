@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* height: 100vh; */
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 8px solid rgba(0, 0, 0, 0.908); */
+
+}
+
+.box {
+    height: 616px;
+    width: 343px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 15px rgb(255, 0, 0);
+}
+.box1 {
+    box-shadow: 0px 0px 20px 15px rgb(17, 255, 0);
+}
+
+.box2 {
+    box-shadow: 0px 0px 20px 15px rgb(255, 0, 34);
+}
+
+.box3 {
+    box-shadow: 0px 0px 20px 15px rgb(0, 0, 255);
+}
+
+.introHeading {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+}
+
+.profileP1 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-image: url(adii3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.profileP2 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-image: url(akhil2.jpg);
+    opacity: 1;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+P {
+    width: 65%;
+    line-height: 1.3em;
+    font-size: 15px;
+    text-align: center;
+    margin: 15px auto;
+    user-select: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.profileP3 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-image: url(amit2.jpg);
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-size: cover;
+}
+
+.profileP4 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-image: url(abishek.jpg);
+    background-repeat: no-repeat;
+
+    background-position: top center;
+    background-size: cover;
+}
+
+h4 {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 180px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(255, 0, 0);
+}
+
+.ad {
+    font-size: 15px;
+
+}
+
+.ak {
+    font-size: 14px;
+}
+
+.ac {
+    width: 130px;
+}
+.abhi{
+    width: 143px;
+}
+
+
+
+.btn {
+    /* height: 49px;
+    width: 49px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+
+}
+
+.btn a {
+    display: flex;
+    height: 29px;
+    width: 29px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-instagram {
+    color: red;
+}
+.fa-phone{
+    color: blue;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.insta {
+    border: 2px solid red;
+}
+
+.wa {
+    border: 2px solid green;
+}
+
+.fb {
+    border: 2px solid blue;
+}
+.call{
+    border: 2px solid blue;
+}
+
+.ld {
+    color: rgba(0, 0, 119, 0.793);
+    border: 2px solid rgba(0, 0, 119, 0.793);
+
+}
+
+@media (max-width: 1500px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: repeat(3);
+        transition: all 2s ease-in-out;
+        row-gap: 80px;
+    }
+
+
+
+}
+
+@media (max-width: 395px) {
+    .box {
+        height: 661px;
+        width: 242px;
+    }
+
+    .box1 {
+        height: 632px;
+        /* width: 265px; */
+    }
+    .box2{
+        height: 557px;
+        /* width: 272px; */
+    }
+    .box3{
+        height: 569px;
+        /* width: 249px; */
+    }
+    .box4{
+        height: 696px;
+    }
+    .profileP1 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .profileP2 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .profileP3 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .profileP4 {
+        height: 150px;
+        width: 150px;
+    }
+
+}
