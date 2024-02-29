@@ -19,7 +19,7 @@
     height: 616px;
     width: 343px;
     border-radius: 17px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: transparent; */
     box-shadow: 0px 0px 20px 15px rgb(255, 0, 0);
 }
 .box1 {
@@ -175,38 +175,38 @@ h4 {
 }
 
 .fa-instagram {
-    color: red;
+    color: rgb(255, 131, 131);
 }
 .fa-phone{
-    color: blue;
+    color: rgb(243, 243, 255);
 }
 
 .fa-whatsapp {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 
 .fa-facebook {
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 .insta {
-    border: 2px solid red;
+    border: 2px solid rgb(255, 30, 0);
 }
 
 .wa {
-    border: 2px solid green;
+    border: 2px solid rgb(84, 255, 84);
 }
 
 .fb {
     border: 2px solid blue;
 }
 .call{
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 174, 255);
 }
 
 .ld {
-    color: rgba(0, 0, 119, 0.793);
-    border: 2px solid rgba(0, 0, 119, 0.793);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 255, 255);
 
 }
 
